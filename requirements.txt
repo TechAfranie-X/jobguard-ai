@@ -1,0 +1,37 @@
+# Packages are added only when a milestone first needs them.
+# (streamlit comes in a later milestone.)
+
+# Data exploration (Milestones 1-2)
+pandas
+numpy
+matplotlib
+seaborn
+jupyter
+ipykernel
+
+# Preprocessing and train/test split (Milestone 3)
+scikit-learn
+
+# Gradient boosting (Milestone 6). On macOS this also needs: brew install libomp
+xgboost
+
+# DistilBERT fine-tuning (Milestone 7)
+# Runs on an NVIDIA GPU (CUDA), Apple Silicon (MPS) or, slowly, a CPU.
+# No GPU? Run notebooks/06_distilbert.ipynb on Google Colab (free GPU) instead.
+torch
+transformers
+accelerate
+
+# Backend API (Milestone 9). The backend serves only the final DistilBERT model, so it needs
+# torch + transformers (above) but not xgboost. pydantic is installed with fastapi.
+# httpx is used by FastAPI's TestClient in backend/test_api.py.
+fastapi
+uvicorn
+pydantic
+httpx
+
+# Job URL import and verification (Milestone 14).
+# beautifulsoup4 reads the job page's HTML. tldextract finds the registered domain (jobs.company.com -> company.com);
+# JobGuard uses its bundled public-suffix snapshot and never downloads a list while serving a request.
+beautifulsoup4
+tldextract

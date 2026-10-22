@@ -1,0 +1,3 @@
+Model,Accuracy,Fraud Precision,Fraud Recall,Fraud F1,True Negatives,False Positives,False Negatives,True Positives
+Logistic Regression,0.9698195395146235,0.9607843137254902,0.3402777777777778,0.5025641025641026,3068,2,95,49
+Logistic Regression (Balanced),0.9691972619788426,0.6178010471204188,0.8194444444444444,0.7044776119402985,2997,73,26,118

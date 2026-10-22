@@ -1,0 +1,3 @@
+Model,Configuration,Accuracy,Fraud Precision,Fraud Recall,Fraud F1,True Negatives,False Positives,False Negatives,True Positives
+DistilBERT,"baseline, no class weights",0.9809412679891093,0.84375,0.7043478260869566,0.7677725118483413,2441,15,34,81
+DistilBERT (Class Weighted),weighted cross-entropy,0.9774406845585375,0.7714285714285715,0.7043478260869566,0.7363636363636363,2432,24,34,81

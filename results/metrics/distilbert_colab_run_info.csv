@@ -1,0 +1,22 @@
+item,value
+gpu_name,Tesla T4
+torch_version,2.11.0+cu130
+transformers_version,5.20.1
+accelerate_version,1.15.0
+checkpoint,distilbert-base-uncased
+max_length,256
+epochs,2
+learning_rate,2e-05
+train_batch_size,16
+validation_batch_size,32
+weight_decay,0.01
+seed,42
+selected_configuration,DistilBERT
+final_model_trained_on_rows,12852
+baseline_training_minutes,7.96
+weighted_training_minutes,8.06
+full_train_training_minutes,9.28
+train_csv_md5,0a5b5a32b8d08433aa9858ac2ec5eb71
+model_train_index_md5,3fc59e593da1624ac69c9d0c4f155348
+validation_index_md5,ca1d771819f17921aeb8350c8f3f01b0
+test_csv_used,no

@@ -1,0 +1,2 @@
+Selected Model,Test Accuracy,Fraud Precision,Fraud Recall,Fraud F1,False Positives,False Negatives,Rationale
+DistilBERT,0.9841319228375855,0.8842975206611571,0.7430555555555556,0.8075471698113208,14,37,"Test fraud F1 0.808 (precision 0.884, recall 0.743); 37 of 144 scams missed and 14 false alarms among 3,070 legitimate postings. Highest fraud F1 of the four models. Its F1 advantage over every other model is outside bootstrap noise. "

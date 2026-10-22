@@ -1,0 +1,5 @@
+Model,Saved size (MB),Software needed,Test inference (s),ms per posting,Inference hardware
+Logistic Regression,0.9661750793457031,scikit-learn,0.8409690856933594,0.26165808515661465,CPU
+Multinomial Naive Bayes,1.4238595962524414,scikit-learn,0.8498640060424805,0.26442563971452415,CPU
+XGBoost,1.0927200317382812,scikit-learn + xgboost,0.862036943435669,0.2682131124566487,CPU
+DistilBERT,256.10453510284424,PyTorch + transformers,32.104416847229004,9.988928701689174,mps

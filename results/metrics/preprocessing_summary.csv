@@ -1,0 +1,2 @@
+original_rows,rows_after_row_dedup,repeated_text_copies_removed,legitimate_copies_removed,fraudulent_copies_removed,conflicting_text_groups,final_unique_text_rows
+17880,17599,1533,1395,138,0,16066

@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Raw dataset (large; each person downloads it themselves)
+data/raw/*
+!data/raw/.gitkeep
+
+# Processed data (can be recreated by running notebook 02)
+data/processed/*
+!data/processed/.gitkeep
+
+# Trained models (large files)
+models/*
+!models/.gitkeep
+
+# DistilBERT training checkpoints (added later)
+checkpoints/
+
+# Frontend (installed / generated; recreate with npm install and npm run build)
+node_modules/
+frontend/dist/
+
+# Local environment files (never commit secrets)
+.env
+.env.*
+!.env.example

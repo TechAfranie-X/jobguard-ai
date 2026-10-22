@@ -1,0 +1,8 @@
+item,value
+rows_measured (train.csv),12852.0
+median_tokens,530.0
+p90_tokens,956.0
+percent_longer_than_256,88.7
+percent_longer_than_512,52.7
+percent_fraud_longer_than_256,68.1
+percent_legitimate_longer_than_256,89.7

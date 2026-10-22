@@ -1,0 +1,4 @@
+split,rows,legitimate,fraudulent,fraud_percent
+All (cleaned),16066,15348,718,4.47
+Train,12852,12278,574,4.47
+Test,3214,3070,144,4.48

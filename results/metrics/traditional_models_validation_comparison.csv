@@ -1,0 +1,3 @@
+Model,Configuration,Accuracy,Fraud Precision,Fraud Recall,Fraud F1,True Negatives,False Positives,False Negatives,True Positives
+Logistic Regression (Balanced),class_weight=balanced,0.970050563982886,0.611764705882353,0.9043478260869565,0.7298245614035088,2390,66,11,104
+Multinomial Naive Bayes,"alpha=0.1, fit_prior=True",0.9797744068455854,0.8987341772151899,0.6173913043478261,0.7319587628865979,2448,8,44,71
